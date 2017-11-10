@@ -1,0 +1,7 @@
+[submodule "themes/material-docs"]
+	path = themes/material-docs
+	url = https://github.com/digitalcraftsman/hugo-material-docs.git
+[submodule "public"]
+	path = public
+	url = https://github.com/kangaroo-server/kangaroo-server.github.io.git
+	branch = master

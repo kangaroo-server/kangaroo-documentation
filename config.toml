@@ -1,0 +1,51 @@
+baseurl = "https://kangaroo-server.github.io/"
+title = "Kangaroo"
+theme = "material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Michael Krotscheck"
+	description = "A material design theme for documentations."
+	copyright = "Apache 2.0"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/kangaroo-server"
+
+	logo = "images/kangaroo.svg"
+	favicon = "favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = [
+	    'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+	]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue-grey"
+    	accent  = "orange"
+# red, pink, purple, deep purple,
+# indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, grey and blue-grey.
+    [params.font]
+    	text = "Roboto"
+    	code = "Roboto Mono"
+
+[social]
+	github  = "kangaroo-server"
+	slack   = "kangaroo-server"
+	irc     = "kangaroo"
+
+
+#[blackfriday]
+#	smartypants	= true
+#	fractions = true
+#	smartDashes = true
+#	plainIDAnchors = true
