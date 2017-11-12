@@ -23,6 +23,29 @@ and request patterns can be assumed to transfer to all resources.
 
 ## Authorization
 
+## Error Responses
+
+If an error is returned by the API, it will provide additional data
+about the failure in the response body, using the following data format.
+The intended audience for this data is software engineers and code. Please
+surface more user-friendly error messages via your own user interface.
+
+| Name               | Type   | Description                                     |
+|--------------------|--------|-------------------------------------------------|
+| error              | String | An error 'short code'.                          |
+| error_description  | String | A human readable error response, not localized. |
+
+
+```
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{
+    "error": "not_found",
+    "error_description": "HTTP 404 Not Found"
+}
+```
+
 ## Search and Browse
 
 We make a distinction between 'browsing' a resource and 'searching' a resource. The former
