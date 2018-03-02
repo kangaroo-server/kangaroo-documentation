@@ -3,7 +3,6 @@ title: API Basics
 menu:
     main:
         weight: 20
-        name: "API Basics"
 ---
 
 ### Required Headers

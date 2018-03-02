@@ -3,7 +3,6 @@ title: About the Project
 menu:
     main:
         weight: 200
-        name: "About the Project"
 ---
 
 ## Contributing
@@ -17,13 +16,13 @@ being duplicated, please reach out the the community in the [IRC Channel](http:/
 
 The project adheres to several philosophies that impact our design decisions and architecture.
 
-#### Secure by Default
+### Secure by Default
 
 In order to encourage a safe and secure internet, the project will default to the most
 secure configuration. This is to address both overtaxed engineers and operators, as many
 do not have the time to read all the documentation, or test all the configurations.
 
-#### Test Everything
+### Test Everything
 
 We expect 100% test coverage. While we understand that this does not 
 necessarily guarantee good tests, it does force a contributing engineer to 
@@ -31,7 +30,7 @@ think through edge cases in a way that might otherwise be skipped. It also
 puts us in a mindset to write testable code, and thus has a substantial impact
 on our project's internal plumbing.
 
-#### Choose Boring Technology
+### Choose Boring Technology
 
 We adhere to the doctrine of [Choose Boring Technology](http://mcfunley.com/choose-boring-technology). 
 This is done mostly out of a need for project and engineer sanity sanity; if development, 
